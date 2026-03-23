@@ -28,11 +28,11 @@ const Testimonials = () => {
   return (
     <section className="section-padding bg-[#f0f4f8]">
       <Container>
-        <SectionHeader 
-          title="What Our Clients Say" 
-          subtitle="Success Stories" 
+        <SectionHeader
+          title="What Our Clients Say"
+          subtitle="Success Stories"
         />
-        
+
         <div className="max-w-4xl mx-auto">
           <Swiper
             modules={[Pagination, Autoplay]}
